@@ -14,8 +14,7 @@
 - State Management: Manage authentication and cart state with Redux.
 - Routing: Navigate through different sections using React Router.
 - Optional Features: Order management and product search/filtering.
-
-
+- Demo Account: Use ReqRes for demo authentication.
 
 ## Tech Stack
 
@@ -30,9 +29,18 @@
 - **Express** For creating RESTful API endpoints.
 - **MongoDB** For database storage.
 - **JWT** For user authentication.
+- **ReqRes"" For demo authentication
+
 ### Tools:
 - **Figma** Design reference (Figma Design).
 
+###Demo Authentication with ReqRes
+
+For demo purposes, you can use the following credentials:
+
+- Email: eve.holt@reqres.in
+- Password: any
+Use ReqRes for demo authentication and integration with the application.
 
 ## Installation
 
