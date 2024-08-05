@@ -60,5 +60,35 @@ bash
   npm install
 ```
 
+## Usage
+1. Start the Backend Server:
+```bash
+  npm run server
+```
+2. Start the Frontend Development Server:
+```bash
+  npm run start
+```
+3. Open Your Browser: Go to http://localhost:3000 to view the application.
+
+
+## Contributing
+
+1. Fork the Repository.
+   
+2. Create a New Branch:
+```bash
+  git checkout -b feature/your-feature
+```
+3. Make Changes and Commit
+```bash
+  git add .
+  git commit -m "Add some feature"
+```
+4. Push to the Branch:
+```bash
+  git push origin feature/your-feature
+```
+
 
 
