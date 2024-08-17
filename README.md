@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 3legant
 
-## Available Scripts
+3legant is a modern e-commerce application built with React. It provides a seamless shopping experience with features like product listing, user authentication, and a dynamic shopping cart. This project utilizes React Router for navigation, props for component communication, React Icons for enhanced UI, and Modals for displaying detailed product information.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- User Authentication: Register, log in, and manage user accounts.
+- Product Management: View, add, update, and delete products.
+- Shopping Cart: Add products to the cart, view cart contents, and remove items.
+- Responsive Design: Optimized for both desktop and mobile devices using Tailwind CSS.
+- State Management: Manage authentication and cart state with Redux.
+- Routing: Navigate through different sections using React Router.
+- Optional Features: Order management and product search/filtering.
+- Demo Account: Use ReqRes for demo authentication.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend:
+- **React** For building the user interface.
+- **React Router** For managing navigation.
+- **Redux** For state management.
+- **Tailwind CSS** For responsive styling.
+- **React Icons** For incorporating icons.
+### Backend:
+- **Node.js** For the server-side environment.
+- **Express** For creating RESTful API endpoints.
+- **MongoDB** For database storage.
+- **JWT** For user authentication.
+- **ReqRes"" For demo authentication
 
-### `npm run build`
+### Tools:
+- **Figma** Design reference (Figma Design).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Demo Authentication with ReqRes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For demo purposes, you can use the following credentials:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Email: eve.holt@reqres.in
+- Password: any
+Use ReqRes for demo authentication and integration with the application.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the Repository:
+```bash
+  git clone https://github.com/shiven24k/Elegent.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the Project Directory:
+bash
+```bash
+  cd Elegent
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install Dependencies:
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+1. Start the Backend Server:
+```bash
+  npm run server
+```
+2. Start the Frontend Development Server:
+```bash
+  npm run start
+```
+3. Open Your Browser: Go to http://localhost:3000 to view the application.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Repository.
+   
+2. Create a New Branch:
+```bash
+  git checkout -b feature/your-feature
+```
+3. Make Changes and Commit
+```bash
+  git add .
+  git commit -m "Add some feature"
+```
+4. Push to the Branch:
+```bash
+  git push origin feature/your-feature
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
