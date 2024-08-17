@@ -1,12 +1,12 @@
 import React from "react";
-import ex from "../Assets/Vector.png";
-
-function Modal({closeModal}){ 
-
-   return<>
-     
-    <div className=" flex flex-col justify-between items-center w-[413px] h-[1024px] absolute z-10 px-6 py-10 top-0 right-0 bg-white">
-    <div className="flex flex-col justify-start items-start self-stretch   gap-4">
+    import ex from "../Assets/Vector.png";
+    
+    function Modal({ closeModal }) {
+      return (
+        <>
+          <div className="fixed inset-0 bg-black bg-opacity-50 z-10"></div>
+          <div className="flex flex-col justify-between items-center w-[413px] h-[1024px] absolute z-20 px-6 py-10 top-0 right-0 bg-white">
+            <div className="flex flex-col gap-4">
       <div className="flex justify-start items-center self-stretch   relative gap-4">
         <p className="flex-grow w-[325px] text-[28px] font-medium text-left text-[#121212]">Cart</p>
       </div>
