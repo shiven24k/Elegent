@@ -298,13 +298,14 @@ function Modal({closeModal}){
       </div>
     </div>
     
-    <button onClick={()=>{closeModal(false)}} className="h-[38px] w-[38px] bg-black rounded-full absolute left-[349px] top-9 p-2 flex items-center justify-center">
-  <img className="w-4" src={ex}/>
+            <button onClick={() => { closeModal(false) }} className="h-[38px] w-[38px] bg-black rounded-full absolute left-[349px] top-9 p-2 flex items-center justify-center">
+              <img className="w-4" src={ex} />
+            </button>
+            
+          </div>
+        </>
+      );
+    }
     
-    </button>
-  </div>
+    export default Modal;
 
-  
-  </>
-}
-export default Modal;

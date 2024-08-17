@@ -41,7 +41,7 @@ function SignupSignin() {
       console.log("Success");
       if(res.data.token){
         console.log("Login Success");
-        localStorage.setItem('token',res.data.token);
+        localStorage.setItem('token',res.data.token); //stores the token localy
         navigate('/home')
       }
     })
@@ -61,7 +61,7 @@ function SignupSignin() {
   return (
     <div className="flex relative space-x-40 ">
         {/* image */}
-        <div className="left-side flex flex-col justify-start items-start w-[456px] gap-8 bg-auto">
+        <div className="flex flex-col justify-start items-start w-[456px] gap-8 bg-auto">
           <p className="z-10 text-black text-2xl font-bold mb-4 absolute left-[15%] ">3legent
           <span className="text-2xl font-medium text-center text-[#6c7275]">
                 .
